@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "vstr": "KUNBUS GmbH",
+    "pstr": "RevPi Core S 16GB",
+    "pid": 360,
+    "prev": 1,
+    "pver": 101,
+    "dtstr": "revpi-core-s-2022",
+    "gpiobanks": [
+        {
+            "drive": "default",
+            "slew": "default",
+            "hysteresis": "default",
+            "gpios": [
+
+            ]
+        }
+    ]
+}

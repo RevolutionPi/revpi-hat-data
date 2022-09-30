@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "vstr": "KUNBUS GmbH",
+    "pstr": "RevPi Core 3+ 16GB",
+    "pid": 300,
+    "prev": 1,
+    "pver": 101,
+    "dtstr": "revpi-core-2022",
+    "gpiobanks": [
+        {
+            "drive": "default",
+            "slew": "default",
+            "hysteresis": "default",
+            "gpios": [
+
+            ]
+        }
+    ]
+}

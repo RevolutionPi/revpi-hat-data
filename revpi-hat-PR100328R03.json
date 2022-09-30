@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "vstr": "KUNBUS GmbH",
+    "pstr": "RevPi Flat",
+    "pid": 328,
+    "prev": 3,
+    "pver": 101,
+    "dtstr": "revpi-flat-s-2022",
+    "gpiobanks": [
+        {
+            "drive": "default",
+            "slew": "default",
+            "hysteresis": "default",
+            "gpios": [
+
+            ]
+        }
+    ]
+}

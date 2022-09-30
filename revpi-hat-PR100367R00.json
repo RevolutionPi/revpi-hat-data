@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "vstr": "KUNBUS GmbH",
+    "pstr": "RevPi Core SE 32GB",
+    "pid": 367,
+    "prev": 0,
+    "pver": 100,
+    "dtstr": "revpi-core-se-2022",
+    "gpiobanks": [
+        {
+            "drive": "default",
+            "slew": "default",
+            "hysteresis": "default",
+            "gpios": [
+
+            ]
+        }
+    ]
+}

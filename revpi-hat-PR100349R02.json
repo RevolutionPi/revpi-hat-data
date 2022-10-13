@@ -1,0 +1,138 @@
+{
+    "version": 1,
+    "vstr": "KUNBUS GmbH",
+    "pstr": "RevPi Connect 4 128 TB",
+    "pid": 349,
+    "prev": 2,
+    "pver": 20,
+    "dtstr": "revpi-connect4",
+    "gpiobanks": [
+        {
+            "drive": "8mA",
+            "slew": "default",
+            "hysteresis": "default",
+            "gpios": [
+                {
+                    "gpio": 2,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 3,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 4,
+                    "fsel": "input",
+                    "pull": "up"
+                },
+                {
+                    "gpio": 5,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 6,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 7,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 8,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 9,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 10,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 11,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 12,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 13,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 15,
+                    "fsel": "input",
+                    "pull": "up"
+                },
+                {
+                    "gpio": 16,
+                    "fsel": "input",
+                    "pull": "down"
+                },
+                {
+                    "gpio": 18,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 19,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 20,
+                    "fsel": "input",
+                    "pull": "down"
+                },
+                {
+                    "gpio": 21,
+                    "fsel": "input",
+                    "pull": "down"
+                },
+                {
+                    "gpio": 22,
+                    "fsel": "alt4",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 23,
+                    "fsel": "alt4",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 24,
+                    "fsel": "alt4",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 25,
+                    "fsel": "alt4",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 26,
+                    "fsel": "alt4",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 27,
+                    "fsel": "alt4",
+                    "pull": "none"
+                }
+            ]
+        }
+    ]
+}

@@ -9,11 +9,140 @@
     "dtstr": "revpi-flat-s-2022",
     "gpiobanks": [
         {
-            "drive": "default",
+            "drive": "8mA",
             "slew": "default",
             "hysteresis": "default",
             "gpios": [
-
+                {
+                    "gpio": 2,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 3,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 4,
+                    "fsel": "alt4",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 5,
+                    "fsel": "alt4",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 6,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 7,
+                    "fsel": "alt4",
+                    "pull": "down"
+                },
+                {
+                    "gpio": 8,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 9,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 10,
+                    "fsel": "input",
+                    "pull": "up"
+                },
+                {
+                    "gpio": 11,
+                    "fsel": "input",
+                    "pull": "up"
+                },
+                {
+                    "gpio": 12,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 13,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 14,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 15,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 16,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 17,
+                    "fsel": "input",
+                    "pull": "up"
+                },
+                {
+                    "gpio": 18,
+                    "fsel": "input",
+                    "pull": "up"
+                },
+                {
+                    "gpio": 19,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 20,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 21,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 22,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 23,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 24,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 25,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 26,
+                    "fsel": "input",
+                    "pull": "none"
+                },
+                {
+                    "gpio": 27,
+                    "fsel": "input",
+                    "pull": "none"
+                }
             ]
         }
     ]

@@ -8,6 +8,7 @@ Device specific JSON templates for RevPi HAT EEPROM generation
 | [RevPi Core 3+ 16GB](./revpi-hat-PR100300R01.json) | PR100300 | R01 | revpi-core-2022 |
 | [RevPi Core 3+ 32GB](./revpi-hat-PR100301R01.json) | PR100301 | R01 | revpi-core-2022 |
 | [RevPi Flat](./revpi-hat-PR100328R03.json) | PR100328 | R03 | revpi-flat-s-2022 |
+| [RevPi Connect 4 128 TB](./revpi-hat-PR100349R02.json) | PR100349 | R02 | revpi-connect4 |
 | [RevPi Core S 8GB](./revpi-hat-PR100359R01.json) | PR100359 | R01 | revpi-core-s-2022 |
 | [RevPi Core S 16GB](./revpi-hat-PR100360R01.json) | PR100360 | R01 | revpi-core-s-2022 |
 | [RevPi Core S 32GB](./revpi-hat-PR100361R01.json) | PR100361 | R01 | revpi-core-s-2022 |

@@ -21,8 +21,6 @@ for template in revpi_hat_templates:
         product_revision = template_data["prev"]
         overlay = template_data["dtstr"]
 
-        pr = f"PR{product_id}R{product_revision:02}"
-
         readme += f"| [{name }]({template}) | PR{product_id} | R{product_revision:02} | {overlay} |\n"
 
 

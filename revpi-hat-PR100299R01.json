@@ -8,11 +8,222 @@
     "dtstr": "revpi-core-2022",
     "gpiobanks": [
         {
-            "drive": "default",
+            "drive": "8mA",
             "slew": "default",
             "hysteresis": "default",
             "gpios": [
-
+                {
+                    "gpio": 2,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "HAT EEPROM Write Protect (ID_WP)",
+				 "external pull-up" ]
+                },
+                {
+                    "gpio": 6,
+                    "fsel": "input",
+                    "pull": "down",
+                    "comment": [ "LED A1 red (LED.ARED)" ]
+                },
+                {
+                    "gpio": 12,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "piright interrupt (PB_SPI.INT_RE)" ]
+                },
+                {
+                    "gpio": 13,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "pileft interrupt (PB_SPI.INT_LI)" ]
+                },
+                {
+                    "gpio": 14,
+                    "fsel": "alt0",
+                    "pull": "none",
+                    "comment": [ "UART TXD0 (PB_RS485.TX)",
+				 "earlycon" ]
+                },
+                {
+                    "gpio": 15,
+                    "fsel": "alt0",
+                    "pull": "up",
+                    "comment": [ "UART RXD0 (PB_RS485.RX)",
+				 "earlycon" ]
+                },
+                {
+                    "gpio": 16,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "LED Power red (LED.PWRRED)" ]
+                },
+                {
+                    "gpio": 17,
+                    "fsel": "input",
+                    "pull": "up",
+                    "comment": [ "UART RTS0 (PB_RS485.TX_EN)",
+				 "earlycon" ]
+                },
+                {
+                    "gpio": 20,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "piright reset (PB_SPI.RST_RE)",
+				 "external pull-down" ]
+                },
+                {
+                    "gpio": 21,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "pileft reset (PB_SPI.RST_LI)",
+				 "external pull-down" ]
+                },
+                {
+                    "gpio": 22,
+                    "fsel": "alt4",
+                    "pull": "none",
+                    "comment": [ "ARM_TRST (JTAG_TRST)" ]
+                },
+                {
+                    "gpio": 23,
+                    "fsel": "alt4",
+                    "pull": "none",
+                    "comment": [ "ARM_RTCK (JTAG_RTCK)" ]
+                },
+                {
+                    "gpio": 24,
+                    "fsel": "alt4",
+                    "pull": "none",
+                    "comment": [ "ARM_TDO (JTAG_TDO)" ]
+                },
+                {
+                    "gpio": 25,
+                    "fsel": "alt4",
+                    "pull": "none",
+                    "comment": [ "ARM_TCK (JTAG_TCK)" ]
+                },
+                {
+                    "gpio": 26,
+                    "fsel": "alt4",
+                    "pull": "none",
+                    "comment": [ "ARM_TDI (JTAG_TDI)" ]
+                },
+                {
+                    "gpio": 27,
+                    "fsel": "alt4",
+                    "pull": "none",
+                    "comment": [ "ARM_TMS (JTAG_TMS)" ]
+                }
+            ]
+        },
+        {
+            "drive": "8mA",
+            "slew": "default",
+            "hysteresis": "default",
+            "gpios": [
+                {
+                    "gpio": 28,
+                    "fsel": "input",
+                    "pull": "down",
+                    "comment": [ "pibridge sniff 2a (PB_POS.2A)" ]
+                },
+                {
+                    "gpio": 29,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "pibridge sniff 2b (PB_POS.2B)",
+				 "external pull-down" ]
+                },
+                {
+                    "gpio": 30,
+                    "fsel": "input",
+                    "pull": "down",
+                    "comment": [ "LED A1 green (LED.AGRN)" ]
+                },
+                {
+                    "gpio": 31,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "LAN9514 nRESET (USB_CM.RUN)",
+				 "external pull-up" ]
+                },
+                {
+                    "gpio": 32,
+                    "fsel": "input",
+                    "pull": "down",
+                    "comment": [ "LED B1 green (LED.BGRN)" ]
+                },
+                {
+                    "gpio": 33,
+                    "fsel": "input",
+                    "pull": "down",
+                    "comment": [ "LED B1 red (LED.BRED)" ]
+                },
+                {
+                    "gpio": 35,
+                    "fsel": "alt0",
+                    "pull": "up",
+                    "comment": [ "SPI0_CE1_N (PB_SPI.CS_RE)" ]
+                },
+                {
+                    "gpio": 36,
+                    "fsel": "alt0",
+                    "pull": "up",
+                    "comment": [ "SPI0_CE0_N (PB_SPI.CS_LI)" ]
+                },
+                {
+                    "gpio": 37,
+                    "fsel": "alt0",
+                    "pull": "none",
+                    "comment": [ "SPI0_MISO (PB_SPI.MISO)",
+				 "external pull-up" ]
+                },
+                {
+                    "gpio": 38,
+                    "fsel": "alt0",
+                    "pull": "none",
+                    "comment": [ "SPI0_MOSI (PB_SPI.MOSI_CM)" ]
+                },
+                {
+                    "gpio": 39,
+                    "fsel": "alt0",
+                    "pull": "none",
+                    "comment": [ "SPI0_SCLK (PB_SPI.CLK_CM)" ]
+                },
+                {
+                    "gpio": 41,
+                    "fsel": "input",
+                    "pull": "down",
+                    "comment": [ "UART RXD0/TXD0 termination (PB_RS485.TERM)" ]
+                },
+                {
+                    "gpio": 42,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "pibridge sniff 1a (PB_POS.1A)",
+				 "external pull-up" ]
+                },
+                {
+                    "gpio": 43,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "pibridge sniff 1b (PB_POS.1B)",
+				 "external pull-up" ]
+                },
+                {
+                    "gpio": 44,
+                    "fsel": "alt2",
+                    "pull": "none",
+                    "comment": [ "SDA1 (I2C_SDA)",
+				 "external pull-up" ]
+                },
+                {
+                    "gpio": 45,
+                    "fsel": "alt2",
+                    "pull": "none",
+                    "comment": [ "SCL1 (I2C_SCL)",
+				 "external pull-up" ]
+                }
             ]
         }
     ]

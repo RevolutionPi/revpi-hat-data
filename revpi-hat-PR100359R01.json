@@ -1,5 +1,6 @@
 {
     "version": 1,
+    "eeprom_data_version": 1,
     "vstr": "KUNBUS GmbH",
     "pstr": "RevPi Core S 8GB",
     "pid": 359,

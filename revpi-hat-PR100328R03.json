@@ -1,5 +1,6 @@
 {
     "version": 1,
+    "eeprom_data_version": 0,
     "vstr": "KUNBUS GmbH",
     "pstr": "RevPi Flat",
     "pid": 328,

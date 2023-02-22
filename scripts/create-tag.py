@@ -8,7 +8,7 @@ from datetime import date
 try:
     from git import Repo
 except ImportError as ie:
-    print(f"Could not import git module (install with apt install python3 or pip install GitPython): {ie}")
+    print(f"Could not import git module (install it with `pip3 install GitPython`): {ie}")
     sys.exit(1)
 
 

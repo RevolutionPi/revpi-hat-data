@@ -8,6 +8,8 @@ revpi_hat_templates = sorted(glob.glob('./revpi-hat-PR*.json'))
 
 readme = """# revpi-hat-eeprom-files
 
+![Plausibility checks CI badge](https://github.com/RevolutionPi/revpi-hat-data/actions/workflows/templates.yml/badge.svg)
+
 Device specific JSON templates for RevPi HAT EEPROM generation
 
 | Device | Vendor | Product Id | Product Revision | Data Version | Devicetree Overlay |

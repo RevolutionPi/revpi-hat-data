@@ -10,6 +10,7 @@ Device specific JSON templates for RevPi HAT EEPROM generation
 | [RevPi Core 3+ 16GB](./revpi-hat-PR100300R01.json) | KUNBUS GmbH | PR100300 | R01 | 1 | revpi-core-2022 |
 | [RevPi Core 3+ 32GB](./revpi-hat-PR100301R01.json) | KUNBUS GmbH | PR100301 | R01 | 1 | revpi-core-2022 |
 | [RevPi Flat](./revpi-hat-PR100328R03.json) | KUNBUS GmbH | PR100328 | R03 | 0 | revpi-flat-s-2022 |
+| [RevPi Core SE 32GB (OEM)](./revpi-hat-PR100358R01.json) | KUNBUS GmbH | PR100358 | R01 | 1 | revpi-core-se-2022 |
 | [RevPi Core S 8GB](./revpi-hat-PR100359R01.json) | KUNBUS GmbH | PR100359 | R01 | 1 | revpi-core-s-2022 |
 | [RevPi Core S 16GB](./revpi-hat-PR100360R01.json) | KUNBUS GmbH | PR100360 | R01 | 1 | revpi-core-s-2022 |
 | [RevPi Core S 32GB](./revpi-hat-PR100361R01.json) | KUNBUS GmbH | PR100361 | R01 | 1 | revpi-core-s-2022 |

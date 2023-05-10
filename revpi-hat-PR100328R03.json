@@ -9,11 +9,265 @@
     "dtstr": "revpi-flat-s-2022",
     "gpiobanks": [
         {
-            "drive": "default",
+            "drive": "8mA",
             "slew": "default",
             "hysteresis": "default",
             "gpios": [
-
+                {
+                    "gpio": 2,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "SDA1 (I2C1.SDA)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 3,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "SCL1 (I2C1.SCL)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 4,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "TXD3 (UART3.TX)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 5,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "RXD3 (UART3.RX)" ]
+                },
+                {
+                    "gpio": 6,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "GPIO (SPI6.nCS0)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 7,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "GPIO (UART3.RTS)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 8,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "TXD4 (UART4.TX)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 9,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "RXD4 (UART4.RX)" ]
+                },
+                {
+                    "gpio": 10,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "GPIO (SPI6.nCS1)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 11,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "GPIO (UART4.RTS)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 13,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "SPI5_MISO (SPI5.MISO)",
+                                 "external pull-down (configure the KSZ8795CLXIC to SPI client mode)" ]
+                },
+                {
+                    "gpio": 14,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "SPI5_MOSI (SPI.MOSI)" ]
+                },
+                {
+                    "gpio": 15,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "SPI5_SCLK (SPI5.SCLK)" ]
+                },
+                {
+                    "gpio": 16,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "GPIO (SPI6.nCS3)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 17,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "GPIO (SPI5.nCS0)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 18,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "GPIO (SPI5.nCS1)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 19,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "SPI6_MISO (SPI6.MISO)" ]
+                },
+                {
+                    "gpio": 20,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "SPI6_MOSI (SPI6.MOSI)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 21,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "SPI6_SCLK (SPI6.SCLK)" ]
+                },
+                {
+                    "gpio": 22,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "GPIO (TPM.nIRQ)"]
+                },
+                {
+                    "gpio": 23,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "GPIO (BUTTON)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 24,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "GPIO (PWR_LED_RED)",
+                                 "external pull-down" ]
+                },
+                {
+                    "gpio": 25,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "GPIO (HAT_EE_WP)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 27,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "GPIO (SPI6.nCS2)",
+                                 "external pull-up" ]
+                }
+            ]
+        },
+        {
+            "drive": "8mA",
+            "slew": "default",
+            "hysteresis": "default",
+            "gpios": [
+                {
+                    "gpio": 28,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "GPIO (DIG_OUT)",
+                                 "external pull-down" ]
+                },
+                {
+                    "gpio": 30,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "CTS0 (UART0.CTS)"]
+                },
+                {
+                    "gpio": 31,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "RTS0 (UART0.RTS)",
+                                 "external pull-down" ]
+                },
+                {
+                    "gpio": 32,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "TXD0 (UART0.TXD)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 33,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "RXD0 (UART0.RXD)"]
+                },
+                {
+                    "gpio": 34,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "SD1_CLK (SDIO.CLK)"]
+                },
+                {
+                    "gpio": 35,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "SD1_CMD (SDIO.CMD)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 36,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "SD1_DAT0 (SDIO.DATA0)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 37,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "SD1_DAT1 (SDIO.DATA1)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 38,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "SD1_DAT2 (SDIO.DATA2)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 39,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "SD1_DAT3 (SDIO.DATA3)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 44,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "GPIO (ETH_SWITCH.nINT)",
+                                 "external pull-up" ]
+                },
+                {
+                    "gpio": 45,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [ "GPIO (nINT_TOP)" ]
+                }
             ]
         }
     ]

@@ -117,11 +117,10 @@
                 },
                 {
                     "gpio": 14,
-                    "fsel": "input",
+                    "fsel": "alt5",
                     "pull": "none",
                     "comment": [
-                        "HAT EEPROM Write Protect (ID_WP)",
-                        "external pull-up"
+                        "TXD1 (UART1_TX)"
                     ]
                 },
                 {
@@ -147,7 +146,8 @@
                     "fsel": "input",
                     "pull": "none",
                     "comment": [
-                        "reserved"
+                        "GPIO (ID_WP)",
+                        "external pull-up"
                     ]
                 },
                 {

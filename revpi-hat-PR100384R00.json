@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "eeprom_data_version": 0,
+    "eeprom_data_version": 1,
     "vstr": "KUNBUS GmbH",
     "pstr": "RevPi Connect 4 WLAN 8/4GB",
     "pid": 384,

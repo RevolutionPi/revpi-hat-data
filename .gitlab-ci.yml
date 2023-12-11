@@ -5,9 +5,8 @@ test:
     - host-arm64
   script:
     - python3 -m pip install --upgrade pip
-    - pip install pytest
-    - if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - pytest --tb=no -v --junit-xml report.xml
+    - if [ -f tests/requirements.txt ]; then pip install -r tests/requirements.txt; fi
+    - pytest -v --junit-xml report.xml
   artifacts:
     paths:
       - "*.xml"

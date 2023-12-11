@@ -1,3 +1,11 @@
+# prevent duplicate runs for MR and branch pipelines
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS
+      when: never
+    - if: $CI_COMMIT_BRANCH
+
 test:
   image: python:bullseye
   tags:
@@ -8,5 +16,7 @@ test:
     - if [ -f tests/requirements.txt ]; then pip install -r tests/requirements.txt; fi
     - pytest -v --junit-xml report.xml
   artifacts:
-    paths:
-      - "*.xml"
+    reports:
+      junit: ${CI_PROJECT_DIR}/report.xml
+  rules:
+    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH'

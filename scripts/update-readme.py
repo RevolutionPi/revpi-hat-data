@@ -22,7 +22,7 @@ prefer that.
 
 # revpi-hat-eeprom-files
 
-![Plausibility checks CI badge](https://github.com/RevolutionPi/revpi-hat-data/actions/workflows/templates.yml/badge.svg)
+![Pipeline status](https://gitlab.com/revolutionpi/revpi-hat-data/badges/master/pipeline.svg) ![Latest release](https://gitlab.com/revolutionpi/revpi-hat-data/-/badges/release.svg)
 
 Device specific JSON templates for RevPi HAT EEPROM generation
 

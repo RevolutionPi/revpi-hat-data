@@ -9,6 +9,9 @@ import requests
 SCHEMA_URL = "https://gitlab.com/revolutionpi/revpi-hat-eeprom/-/raw/master/docs/eep.schema?ref_type=heads"
 SCHEMA_FILENAME = "eep.schema"
 
+# List of template files, where test_product_version() is skipped
+IGNORE_VERSION_CHECK = []
+
 revpi_hat_templates = sorted(glob.glob("./revpi-hat-PR*.json"))
 
 
@@ -61,3 +64,33 @@ class TestJsonFiles:
                 jsonschema.validate(template_data, schema=schema)
             except jsonschema.ValidationError as ve:
                 pytest.fail("Validation Error: " + str(ve))
+
+    def test_product_version(self, template: str) -> None:
+        """Test JSON file against schema.
+
+        Parameters
+        ----------
+        template : str
+            json template file name
+        """
+        if template in IGNORE_VERSION_CHECK:
+            pytest.skip("Ignore version check for " + template)
+
+        _, pr_rev = template[14:-5].split("R")
+        expected_product_version = 100 + int(pr_rev)
+
+        with open(template, "r") as f:
+            template_data = json.loads(f.read())
+
+            is_development_version = template_data["eeprom_data_version"] == 0
+
+            if template_data["pver"] != expected_product_version:
+                error = (
+                    "Product version does not match filename: "
+                    + f"pver={template_data['pver']}, expected={expected_product_version}"
+                )
+
+                if is_development_version:
+                    pytest.skip("Ignored during development: " + error)
+
+                pytest.fail(error)

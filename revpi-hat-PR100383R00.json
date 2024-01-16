@@ -1,11 +1,11 @@
 {
     "version": 1,
-    "eeprom_data_version": 1,
+    "eeprom_data_version": 2,
     "vstr": "KUNBUS GmbH",
     "pstr": "RevPi Connect 4 WLAN 16/8GB",
     "pid": 383,
     "prev": 0,
-    "pver": 10,
+    "pver": 100,
     "dtstr": "revpi-connect4",
     "gpiobanks": [
         {

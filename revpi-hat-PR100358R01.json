@@ -1,11 +1,11 @@
 {
     "version": 1,
-    "eeprom_data_version": 1,
+    "eeprom_data_version": 2,
     "vstr": "KUNBUS GmbH",
     "pstr": "RevPi Core SE 32GB (OEM)",
     "pid": 358,
     "prev": 1,
-    "pver": 100,
+    "pver": 101,
     "dtstr": "revpi-core-se-2022",
     "gpiobanks": [
         {

@@ -59,11 +59,15 @@ class TestJsonFiles:
         """
         with open(template, "r") as f:
             template_data = json.loads(f.read())
+            error = None
 
             try:
                 jsonschema.validate(template_data, schema=schema)
             except jsonschema.ValidationError as ve:
-                pytest.fail("Validation Error: " + str(ve))
+                error = f"{ve.json_path}: {ve.message} ({ve.validator})"
+
+            if error is not None:
+                pytest.fail(error, pytrace=False)
 
     def test_product_version(self, template: str) -> None:
         """Test JSON file against schema.

@@ -1,0 +1,237 @@
+{
+    "version": 1,
+    "eeprom_data_version": 1,
+    "vstr": "KUNBUS GmbH",
+    "pstr": "RevPi Connect 4 WLAN 32/8GB (OEM)",
+    "pid": 403,
+    "prev": 1,
+    "pver": 101,
+    "dtstr": "revpi-connect4",
+    "gpiobanks": [
+        {
+            "drive": "8mA",
+            "slew": "default",
+            "hysteresis": "default",
+            "gpios": [
+                {
+                    "gpio": 2,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [
+                        "SDA1 (I2C_SDA)",
+                        "external pull-up"
+                    ]
+                },
+                {
+                    "gpio": 3,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [
+                        "SCL1 (I2C_SCL)",
+                        "external pull-up"
+                    ]
+                },
+                {
+                    "gpio": 4,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [
+                        "UART TXD3 (PB_RS485.TX)"
+                    ]
+                },
+                {
+                    "gpio": 5,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [
+                        "UART RXD3 (PB_RS485.RX)"
+                    ]
+                },
+                {
+                    "gpio": 6,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [
+                        "GPIO (DIG_IN)",
+                        "external pull-up"
+                    ]
+                },
+                {
+                    "gpio": 7,
+                    "fsel": "input",
+                    "pull": "up",
+                    "comment": [
+                        "UART RTS3 (PB_RS485.TX_EN)"
+                    ]
+                },
+                {
+                    "gpio": 8,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [
+                        "GPIO (INT_IOEX_CORE)",
+                        "external pull-up"
+                    ]
+                },
+                {
+                    "gpio": 9,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [
+                        "GPIO (INT_IOEX_POWER)",
+                        "external pull-up"
+                    ]
+                },
+                {
+                    "gpio": 10,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [
+                        "GPIO (TPM_PIRQ_N)",
+                        "external pull-up"
+                    ]
+                },
+                {
+                    "gpio": 11,
+                    "fsel": "input",
+                    "pull": "down",
+                    "comment": [
+                        "GPIO (ETH_SYNC)"
+                    ]
+                },
+                {
+                    "gpio": 12,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [
+                        "UART TX5 (RS485.TX)"
+                    ]
+                },
+                {
+                    "gpio": 13,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [
+                        "UART RX5 (RS485.RX)"
+                    ]
+                },
+                {
+                    "gpio": 14,
+                    "fsel": "alt5",
+                    "pull": "none",
+                    "comment": [
+                        "TXD1 (UART1_TX)"
+                    ]
+                },
+                {
+                    "gpio": 15,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [
+                        "UART RTS5 (RS485.TX_EN_N)",
+                        "external pull-down"
+                    ]
+                },
+                {
+                    "gpio": 16,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [
+                        "GPIO (DIG_OUT)",
+                        "external pull-down"
+                    ]
+                },
+                {
+                    "gpio": 17,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [
+                        "GPIO (ID_WP)",
+                        "external pull-up"
+                    ]
+                },
+                {
+                    "gpio": 18,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [
+                        "GPIO (SPI1.CE0)",
+                        "external pull-up"
+                    ]
+                },
+                {
+                    "gpio": 19,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [
+                        "SPI1 (SPI1.MISO)"
+                    ]
+                },
+                {
+                    "gpio": 20,
+                    "fsel": "input",
+                    "pull": "none",
+                    "comment": [
+                        "SPI1 (SPI1.MOSI)"
+                    ]
+                },
+                {
+                    "gpio": 21,
+                    "fsel": "input",
+                    "pull": "down",
+                    "comment": [
+                        "SPI1 (SPI1.CLK)"
+                    ]
+                },
+                {
+                    "gpio": 22,
+                    "fsel": "alt4",
+                    "pull": "none",
+                    "comment": [
+                        "ARM_TRST (JTAG_TRST)"
+                    ]
+                },
+                {
+                    "gpio": 23,
+                    "fsel": "alt4",
+                    "pull": "none",
+                    "comment": [
+                        "ARM_RTCK (JTAG_RTCK)"
+                    ]
+                },
+                {
+                    "gpio": 24,
+                    "fsel": "alt4",
+                    "pull": "none",
+                    "comment": [
+                        "ARM_TDO (JTAG_TDO)"
+                    ]
+                },
+                {
+                    "gpio": 25,
+                    "fsel": "alt4",
+                    "pull": "none",
+                    "comment": [
+                        "ARM_TCK (JTAG_TCK)"
+                    ]
+                },
+                {
+                    "gpio": 26,
+                    "fsel": "alt4",
+                    "pull": "none",
+                    "comment": [
+                        "ARM_TDI (JTAG_TDI)"
+                    ]
+                },
+                {
+                    "gpio": 27,
+                    "fsel": "alt4",
+                    "pull": "none",
+                    "comment": [
+                        "ARM_TMS (JTAG_TMS)"
+                    ]
+                }
+            ]
+        }
+    ]
+}

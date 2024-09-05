@@ -41,12 +41,15 @@ Device specific JSON templates for RevPi HAT EEPROM generation
 | [RevPi Connect 4 8/2GB](./revpi-hat-PR100376R01.json) | KUNBUS GmbH | PR100376 | R01 | 1 | revpi-connect4 |
 | [RevPi Connect 4 WLAN 8/2GB](./revpi-hat-PR100377R00.json) | KUNBUS GmbH | PR100377 | R00 | 2 | revpi-connect4 |
 | [RevPi Connect 4 WLAN 8/2GB](./revpi-hat-PR100377R01.json) | KUNBUS GmbH | PR100377 | R01 | 1 | revpi-connect4 |
+| [RevPi Connect 4 WLAN 8/2GB](./revpi-hat-PR100377R02.json) | KUNBUS GmbH | PR100377 | R02 | 1 | revpi-connect4 |
 | [RevPi Connect 4 32/4GB](./revpi-hat-PR100378R00.json) | KUNBUS GmbH | PR100378 | R00 | 2 | revpi-connect4 |
 | [RevPi Connect 4 32/4GB](./revpi-hat-PR100378R01.json) | KUNBUS GmbH | PR100378 | R01 | 1 | revpi-connect4 |
 | [RevPi Connect 4 WLAN 32/4GB](./revpi-hat-PR100379R00.json) | KUNBUS GmbH | PR100379 | R00 | 2 | revpi-connect4 |
 | [RevPi Connect 4 WLAN 32/4GB](./revpi-hat-PR100379R01.json) | KUNBUS GmbH | PR100379 | R01 | 1 | revpi-connect4 |
+| [RevPi Connect 4 WLAN 32/4GB](./revpi-hat-PR100379R02.json) | KUNBUS GmbH | PR100379 | R02 | 1 | revpi-connect4 |
 | [RevPi Connect 4 WLAN 32/8GB](./revpi-hat-PR100380R00.json) | KUNBUS GmbH | PR100380 | R00 | 2 | revpi-connect4 |
 | [RevPi Connect 4 WLAN 32/8GB](./revpi-hat-PR100380R01.json) | KUNBUS GmbH | PR100380 | R01 | 1 | revpi-connect4 |
+| [RevPi Connect 4 WLAN 32/8GB](./revpi-hat-PR100380R02.json) | KUNBUS GmbH | PR100380 | R02 | 1 | revpi-connect4 |
 | [RevPi Connect 4 WLAN 16/8GB](./revpi-hat-PR100383R00.json) | KUNBUS GmbH | PR100383 | R00 | 2 | revpi-connect4 |
 | [RevPi Connect 4 WLAN 8/4GB](./revpi-hat-PR100384R00.json) | KUNBUS GmbH | PR100384 | R00 | 2 | revpi-connect4 |
 | [RevPi Connect 4 WLAN 16/2GB](./revpi-hat-PR100385R00.json) | KUNBUS GmbH | PR100385 | R00 | 2 | revpi-connect4 |
@@ -55,9 +58,11 @@ Device specific JSON templates for RevPi HAT EEPROM generation
 | [RevPi Connect 4 32/8GB](./revpi-hat-PR100395R00.json) | KUNBUS GmbH | PR100395 | R00 | 2 | revpi-connect4 |
 | [RevPi Connect 4 32/8GB](./revpi-hat-PR100395R01.json) | KUNBUS GmbH | PR100395 | R01 | 1 | revpi-connect4 |
 | [RevPi Connect 4 WLAN 32/4GB](./revpi-hat-PR100399R00.json) | KUNBUS GmbH | PR100399 | R00 | 1 | revpi-connect4 |
+| [RevPi Connect 4 WLAN 32/4GB](./revpi-hat-PR100399R01.json) | KUNBUS GmbH | PR100399 | R01 | 1 | revpi-connect4 |
 | [RevPi Core SE 16GB (OEM)](./revpi-hat-PR100401R00.json) | KUNBUS GmbH | PR100401 | R00 | 1 | revpi-core-se-2022 |
 | [RevPi Connect 4 32/8GB (OEM)](./revpi-hat-PR100402R00.json) | KUNBUS GmbH | PR100402 | R00 | 1 | revpi-connect4 |
 | [RevPi Connect 4 WLAN 32/8GB (OEM)](./revpi-hat-PR100403R00.json) | KUNBUS GmbH | PR100403 | R00 | 1 | revpi-connect4 |
+| [RevPi Connect 4 WLAN 32/8GB (OEM)](./revpi-hat-PR100403R01.json) | KUNBUS GmbH | PR100403 | R01 | 1 | revpi-connect4 |
 | [RevPi Connect 4 32/4GB (OEM)](./revpi-hat-PR100406R00.json) | KUNBUS GmbH | PR100406 | R00 | 1 | revpi-connect4 |
 
 

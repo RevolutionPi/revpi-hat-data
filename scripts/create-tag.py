@@ -41,11 +41,14 @@ last_tag = list(repo.tags)[-1]
 
 repo.git.checkout(last_tag)
 old_versions = read_versions()
+removed_versions = set(old_versions.keys()) - set(versions.keys())
 
 repo.git.checkout(active_branch)
 
-
 changelog = []
+
+for version in removed_versions:
+    changelog.append(f"Removed: {version}")
 
 for product, version in versions.items():
     if version == 0:
@@ -56,9 +59,9 @@ for product, version in versions.items():
         previous_version = old_versions[product]
 
         if version > previous_version:
-            changelog.append(f"{product} V{previous_version} -> V{version}")
+            changelog.append(f"Updated: {product} V{previous_version} -> V{version}")
     else:
-        changelog.append(f"{product} V{previous_version}")
+        changelog.append(f"Added: {product} V{previous_version}")
 
 if not changelog:
     print("No changes found. Exiting.")

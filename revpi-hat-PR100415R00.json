@@ -1,0 +1,18 @@
+{
+    "version": 1,
+    "eeprom_data_version": 1,
+    "vstr": "KUNBUS GmbH",
+    "pstr": "RevPi Connect 5 CAN WLAN 32/4GB",
+    "pid": 415,
+    "prev": 0,
+    "pver": 100,
+    "dtstr": "revpi-connect5-can",
+    "gpiobanks": [
+        {
+            "drive": "8mA",
+            "slew": "default",
+            "hysteresis": "default",
+            "gpios": []
+        }
+    ]
+}

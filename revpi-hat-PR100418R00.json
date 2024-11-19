@@ -1,0 +1,18 @@
+{
+    "version": 1,
+    "eeprom_data_version": 1,
+    "vstr": "KUNBUS GmbH",
+    "pstr": "RevPi Connect 5 CAN 32/8GB",
+    "pid": 418,
+    "prev": 0,
+    "pver": 100,
+    "dtstr": "revpi-connect5-can",
+    "gpiobanks": [
+        {
+            "drive": "8mA",
+            "slew": "default",
+            "hysteresis": "default",
+            "gpios": []
+        }
+    ]
+}

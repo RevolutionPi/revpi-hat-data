@@ -1,0 +1,11 @@
+{
+    "version": 1,
+    "eeprom_data_version": 1,
+    "vstr": "KUNBUS GmbH",
+    "pstr": "RevPi Core S 32GB",
+    "pid": 361,
+    "prev": 2,
+    "pver": 102,
+    "dtstr": "revpi-core-s-2022",
+    "include": "revpi-core-s-2022.json"
+}

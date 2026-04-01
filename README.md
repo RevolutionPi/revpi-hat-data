@@ -121,21 +121,28 @@ Device specific JSON templates for RevPi HAT EEPROM generation
 | [RevPi Connect 4 32/4GB (OEM)](revpi-hat-PR100411R02.json) | KUNBUS GmbH | PR100411 | R02 | 1 | revpi-connect4 |
 | [RevPi Connect 5 32/4GB](revpi-hat-PR100412R00.json) | KUNBUS GmbH | PR100412 | R00 | 1 | revpi-connect5 |
 | [RevPi Connect 5 32/4GB](revpi-hat-PR100412R01.json) | KUNBUS GmbH | PR100412 | R01 | 1 | revpi-connect5 |
+| [RevPi Connect 5 32/4GB](revpi-hat-PR100412R02.json) | KUNBUS GmbH | PR100412 | R02 | 1 | revpi-connect5 |
 | [RevPi Connect 5 WLAN 32/4GB](revpi-hat-PR100413R00.json) | KUNBUS GmbH | PR100413 | R00 | 1 | revpi-connect5 |
 | [RevPi Connect 5 WLAN 32/4GB](revpi-hat-PR100413R01.json) | KUNBUS GmbH | PR100413 | R01 | 1 | revpi-connect5 |
+| [RevPi Connect 5 WLAN 32/4GB](revpi-hat-PR100413R02.json) | KUNBUS GmbH | PR100413 | R02 | 1 | revpi-connect5 |
 | [RevPi Connect 5 CAN 32/4GB](revpi-hat-PR100414R00.json) | KUNBUS GmbH | PR100414 | R00 | 1 | revpi-connect5-can |
 | [RevPi Connect 5 CAN 32/4GB](revpi-hat-PR100414R01.json) | KUNBUS GmbH | PR100414 | R01 | 1 | revpi-connect5-can |
+| [RevPi Connect 5 CAN 32/4GB](revpi-hat-PR100414R02.json) | KUNBUS GmbH | PR100414 | R02 | 1 | revpi-connect5-can |
 | [RevPi Connect 5 CAN WLAN 32/4GB](revpi-hat-PR100415R00.json) | KUNBUS GmbH | PR100415 | R00 | 1 | revpi-connect5-can |
 | [RevPi Connect 5 CAN WLAN 32/4GB](revpi-hat-PR100415R01.json) | KUNBUS GmbH | PR100415 | R01 | 1 | revpi-connect5-can |
+| [RevPi Connect 5 CAN WLAN 32/4GB](revpi-hat-PR100415R02.json) | KUNBUS GmbH | PR100415 | R02 | 1 | revpi-connect5-can |
 | [RevPi Connect 5 32/8GB](revpi-hat-PR100416R00.json) | KUNBUS GmbH | PR100416 | R00 | 1 | revpi-connect5 |
 | [RevPi Connect 5 32/8GB](revpi-hat-PR100416R01.json) | KUNBUS GmbH | PR100416 | R01 | 1 | revpi-connect5 |
 | [RevPi Connect 5 32/8GB](revpi-hat-PR100416R02.json) | KUNBUS GmbH | PR100416 | R02 | 1 | revpi-connect5 |
 | [RevPi Connect 5 WLAN 32/8GB](revpi-hat-PR100417R00.json) | KUNBUS GmbH | PR100417 | R00 | 1 | revpi-connect5 |
 | [RevPi Connect 5 WLAN 32/8GB](revpi-hat-PR100417R01.json) | KUNBUS GmbH | PR100417 | R01 | 1 | revpi-connect5 |
+| [RevPi Connect 5 WLAN 32/8GB](revpi-hat-PR100417R02.json) | KUNBUS GmbH | PR100417 | R02 | 1 | revpi-connect5 |
 | [RevPi Connect 5 CAN 32/8GB](revpi-hat-PR100418R00.json) | KUNBUS GmbH | PR100418 | R00 | 1 | revpi-connect5-can |
 | [RevPi Connect 5 CAN 32/8GB](revpi-hat-PR100418R01.json) | KUNBUS GmbH | PR100418 | R01 | 1 | revpi-connect5-can |
+| [RevPi Connect 5 CAN 32/8GB](revpi-hat-PR100418R02.json) | KUNBUS GmbH | PR100418 | R02 | 1 | revpi-connect5-can |
 | [RevPi Connect 5 CAN WLAN 32/8GB](revpi-hat-PR100419R00.json) | KUNBUS GmbH | PR100419 | R00 | 1 | revpi-connect5-can |
 | [RevPi Connect 5 CAN WLAN 32/8GB](revpi-hat-PR100419R01.json) | KUNBUS GmbH | PR100419 | R01 | 1 | revpi-connect5-can |
+| [RevPi Connect 5 CAN WLAN 32/8GB](revpi-hat-PR100419R02.json) | KUNBUS GmbH | PR100419 | R02 | 1 | revpi-connect5-can |
 | [RevPi Connect 5 2x CAN WLAN 32/8GB](revpi-hat-PR100420R00.json) | KUNBUS GmbH | PR100420 | R00 | 1 | revpi-connect5-can-can |
 | [RevPi Connect 5 2x CAN WLAN 32/8GB](revpi-hat-PR100420R01.json) | KUNBUS GmbH | PR100420 | R01 | 1 | revpi-connect5-can-can |
 | [RevPi Connect 5 2x CAN WLAN 32/8GB](revpi-hat-PR100420R02.json) | KUNBUS GmbH | PR100420 | R02 | 1 | revpi-connect5-can-can |

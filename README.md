@@ -146,6 +146,7 @@ Device specific JSON templates for RevPi HAT EEPROM generation
 | [RevPi Connect 5 2x CAN WLAN 32/8GB](revpi-hat-PR100420R00.json) | KUNBUS GmbH | PR100420 | R00 | 1 | revpi-connect5-can-can |
 | [RevPi Connect 5 2x CAN WLAN 32/8GB](revpi-hat-PR100420R01.json) | KUNBUS GmbH | PR100420 | R01 | 1 | revpi-connect5-can-can |
 | [RevPi Connect 5 2x CAN WLAN 32/8GB](revpi-hat-PR100420R02.json) | KUNBUS GmbH | PR100420 | R02 | 1 | revpi-connect5-can-can |
+| [RevPi Connect 4 32/8GB (OEM)](revpi-hat-PR100426R00.json) | KUNBUS GmbH | PR100426 | R00 | 1 | revpi-connect4 |
 | [RevPi Connect 5 2x CAN 64/8GB](revpi-hat-PR100427R00.json) | KUNBUS GmbH | PR100427 | R00 | 1 | revpi-connect5-can-can |
 
 

@@ -1,0 +1,11 @@
+{
+    "version": 1,
+    "eeprom_data_version": 1,
+    "vstr": "KUNBUS GmbH",
+    "pstr": "RevPi Flat S 64GB",
+    "pid": 432,
+    "prev": 0,
+    "pver": 100,
+    "dtstr": "revpi-flat-s-2025",
+    "include": "revpi-flat-s-2022.json"
+}
